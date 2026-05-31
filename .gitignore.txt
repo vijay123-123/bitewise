@@ -1,0 +1,77 @@
+# ==================================
+# React / Node.js
+# ==================================
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# ==================================
+# Spring Boot / Java
+# ==================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven Wrapper Jar (optional)
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==================================
+# Application Secrets
+# ==================================
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# ==================================
+# IDE Files
+# ==================================
+.idea/
+*.iml
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.project
+.classpath
+.settings/
+
+# ==================================
+# Operating System Files
+# ==================================
+.DS_Store
+Thumbs.db
+
+# ==================================
+# Temporary Files
+# ==================================
+tmp/
+temp/
+.cache/
+
+# ==================================
+# MongoDB Local Data
+# ==================================
+mongodb-data/
+data/
+
+# ==================================
+# Generated Reports
+# ==================================
+reports/
